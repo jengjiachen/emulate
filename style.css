@@ -1,0 +1,16 @@
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+}
+
+canvas {
+  position: absolute;
+  filter: url("#flame");
+}
